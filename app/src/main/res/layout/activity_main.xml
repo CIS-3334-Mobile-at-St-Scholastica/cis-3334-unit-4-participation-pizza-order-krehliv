@@ -23,14 +23,14 @@
             android:layout_weight="1" />
 
         <RadioButton
-            android:text="MediumPizza"
+            android:text="@string/mediumpizza"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radioButtonMedium"
             android:layout_weight="1" />
 
         <RadioButton
-            android:text="Large Pizza"
+            android:text="@string/large_pizza"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radioButtonLarge"
@@ -39,33 +39,39 @@
     </RadioGroup>
 
     <CheckBox
-        android:text="CheckBoxExtraCheese"
+        android:text="@string/checkboxextracheese"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/checkBoxCheese"
         android:layout_marginTop="12dp" />
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerToppings"
+        android:entries="@array/toppings" />
+
     <Button
-        android:text="Order"
+        android:text="@string/order"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonOrder"
         android:onClick="onClickOrder" />
 
     <CheckBox
-        android:text="CheckBoxDelivery"
+        android:text="@string/checkboxdelivery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/checkBoxDeluvery" />
 
     <TextView
-        android:text="Total Due:"
+        android:text="@string/total_due"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textViewTotal" />
 
     <TextView
-        android:text="Order Status: Nothing ordered yet"
+        android:text="@string/order_status_nothing_ordered_yet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textViewStatus" />

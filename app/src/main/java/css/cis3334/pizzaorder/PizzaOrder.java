@@ -62,7 +62,7 @@ public class PizzaOrder implements PizzaOrderInterface {
     }
 
     @Override
-    public Double getLargePrize() {
+    public Double getLargePrice() {
         return Pizza.LARGE_PRICE;
     }
 
