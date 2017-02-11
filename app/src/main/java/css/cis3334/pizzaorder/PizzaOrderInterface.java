@@ -12,7 +12,4 @@ public interface PizzaOrderInterface {
     Double getExtraCheesePrice();
     void setDelivery(boolean deliver);
     boolean getDelivery();
-    String getTopping();
-    String getSize();
-
 }
